@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
 # Load the preprocessed data
-data_preprocessed = pd.read_csv(r"C:\Users\Lenovo\Desktop\Hackathon\preprocessed_data.csv")
+data_preprocessed = pd.read_csv(r"C:\Users\Lenovo\Desktop\Hackathon\healthy_habits\preprocessed_data.csv")
 
 # Step 1: Apply K-Means Clustering
 kmeans = KMeans(n_clusters=3, random_state=42)  # Adjust n_clusters based on your needs
