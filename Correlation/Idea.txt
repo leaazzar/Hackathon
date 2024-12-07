@@ -1,0 +1,21 @@
+Given a dataset of answers from Lebanese students on hteir smoking habits. We aim to explore the factors that influence smoking dependency among individuals based on the dataset. Our objectives are:
+1. To understand the correlations between various sociodemographic, personality, and lifestyle factors and smoking dependency.
+2. To categorize individuals into three levels of smoking dependency:
+   - Highly Dependent
+   - Moderately Dependent
+   - Low Dependency
+3. We want to identify which factors correlate most strongly with smoking dependency levels.
+
+To achieve our objectives, the first step was data selection and feature Identification
+
+We need to select the most relevant features from the dataset to analyze smoking dependency.
+Selecting meaningful features ensures that our analysis focuses on factors that can truly impact or correlate with smoking dependency.
+to determine which features were the most important we had to do some research. The criteriafor assessing smoking dependence in the function we defined are inspired by the Fagerström Test for Nicotine Dependence (FTND), a widely used tool to evaluate the intensity of physical addiction to nicotine. The FTND includes questions that assess behaviors such as the number of cigarettes smoked per day and the time to the first cigarette after waking up. The function's use of the or operator aligns with the FTND's approach, where certain behaviors independently contribute to higher dependence scores. Therefore, the presence of any one of these behaviors can signify a higher level of dependence.
+
+By incorporating these criteria, the function aims to classify individuals' smoking dependence levels based on established indicators from the FTND.
+
+https://cde.nida.nih.gov/instrument/d7c0b0f5-b865-e4de-e040-bb89ad43202b?utm_source=chatgpt.com 
+
+
+Step 2: Identifying the most important features
+for this step we used a random forest to identify the most important features and to see which ones correlate with smoking dependency.
